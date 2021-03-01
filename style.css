@@ -1,0 +1,194 @@
+body{
+    background-image: url('coin and map.jpg');
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+ 
+
+h1{
+    font-size: 50px; 
+    margin-left: 30px ; 
+    margin-top: 20px; 
+    margin-right:40px ;
+    text-shadow: 2px 2px 5px black; 
+    font-family : calibri;
+    color  :burlywood;
+
+}
+
+
+
+.thediv{
+    box-shadow: 0 4px 8px 0 rgba(179, 42, 42, 0.2), 0 6px 20px 0 rgba(216, 158, 158, 0.19);
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    position :absolute;
+    width :60%;
+    height :70%;
+    top:20%;
+    bottom:20%;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 10px;
+      /* box-shadow: 6px 6px 0px black;*/
+   padding-left: 5%;
+ 
+}
+.div_btn{
+   
+    width: 70%;
+    float: left;
+    margin-top: 5%;
+   
+
+}
+
+.btn{
+    background-color : #9f7ba0;
+    color: black;
+    width:60%;
+    height : 50px ;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+	
+}
+.btn:hover{
+    background-color :blueviolet;
+    color:black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    width: 70%;
+}
+
+
+.div_form{
+    float: left;
+    width: 50%;
+    
+    padding :16px 16px 16px 16px;
+  
+   
+    
+
+   
+}
+.img_div{
+    
+   width: 40%;
+   height: 70%;
+   float: left;
+ 
+   
+   
+  
+}
+
+.img_div img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.div_sel{
+    
+   width: 40%;
+    display: inline-block;
+    margin-right: 5%;
+    
+  
+   
+}
+.div_entry{
+   
+    width: 50%;
+    display: inline-block;
+ 
+}
+
+input{
+    width: 70%;
+    margin-top: 15px;
+    padding: 12px;
+    margin-bottom: 15px;
+   background-color:  #e7cce0 ;
+    background: transparent;
+   
+   border-bottom: 1px solid rgb(160, 117, 117);
+   
+   border-left:none;
+   border-right :none;
+   border-top :none;
+   transition: width 0.35s, border 0.35s ;
+   font-size: 16px;
+    
+}
+label{
+    color: rgb(116, 107, 96);
+    font-size: 20px;
+}
+select{
+    color: rgb(104, 99, 99);
+    width: 85%;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(160, 117, 117);
+    border-left:none;
+    border-right :none;
+    border-top :none;
+    font-size: 14px;
+    font-family: fontAwesome, Verdana, Geneva, Tahoma, sans-serif;;
+    /*for firefox remove scroll arrow*/
+    -moz-appearance: none;
+  /* for Chrome */
+    -webkit-appearance: none;
+    transition:  width 0.35s, font-size 0.35s, border 0.35s;
+}
+
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+     
+select option{
+    background: #d299c2;
+    font-family: fontAwesome, Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+select:hover{
+    border: 0.5px solid blueviolet;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 4px;
+    color: black;
+   
+}
+
+input:hover {
+	width: 80%;
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+input:focus{
+    background-color: #9f7ba0;
+    width: 80%;
+}
+
+
+
